@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Popularity App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="start-page">
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo"
+            class="logo">
+        <h1>Welcome to YouTube Popularity Predictor</h1>
+        <p>Discover how your video metrics affect your popularity score.</p>
+        <a href="{{ url_for('home') }}" class="btn">Start Now ▶️</a>
+    </div>
+</body>
+
+</html>
