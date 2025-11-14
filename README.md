@@ -1,2 +1,2 @@
 A Flask-based YouTube Popularity Prediction Web App that uses a trained machine learning model to classify channels into Low, Medium, or High popularity levels based on input metrics like subscribers, views, video count, and engagement. The project includes a clean UI built with HTML, CSS, and Bootstrap, hosted on PythonAnywhere, and fully open-sourced on GitHub for learning and deployment reference.
-live demo   https://internshipyoutubepopularity.pythonanywhere.com/
+live demo https://internshipyoutubepopularity.pythonanywhere.com/
